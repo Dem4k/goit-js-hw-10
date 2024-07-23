@@ -59,7 +59,6 @@ let timer = null;
 function updateTimer() {
   const currentDate = new Date();
   const dif = userSelectedDate - currentDate;
-  console.log(convertMs(dif));
   if (dif > 0) {
     btn.disabled = true;
     const { days, hours, minutes, seconds } = convertMs(dif);
