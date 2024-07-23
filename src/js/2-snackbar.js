@@ -36,4 +36,5 @@ function onSubmit(event) {
         position: 'topRight',
       })
     );
+  event.currentTarget.reset();
 }
